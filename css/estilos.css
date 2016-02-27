@@ -1,0 +1,203 @@
+/*******************************
+	GENERAL
+********************************/ 
+
+body {
+	font-family: "times new roman";
+	padding: 10px;
+	background-color: white;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	text-align: center;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+h2 {
+	text-align: center;
+	font-weight: normal;
+}
+
+p {
+	text-align: justify;
+	padding: 0px 10px 0px 10px;
+}
+
+.limpiar {
+	clear: both;
+}
+
+
+/*******************************
+	CABECERA
+********************************/ 
+
+#cabecera_izq {
+	float: left;
+}
+
+#periodico_cabecera {
+	float: left;
+	font-size: 1.5em;
+}
+
+#fecha {
+	float: left;
+	width: 250px;
+	margin-left: 20px;
+	font-size: .7em;
+}
+
+#cabecera_drcha {
+	float: right;
+}
+
+#tercera_texto {
+	font-size: 1.7em;
+	color: #0c5276;
+}
+
+#tercera_numero {
+	font-size: 1.7em;
+	color: #a5a283;
+	padding-left: 20px;
+}
+
+
+/*******************************
+	CUERPO
+********************************/ 
+
+#cuerpo {
+	margin: 0px 40px 0px 40px;
+	border: 1px solid gray;
+	background-color: inherit;
+	position: relative;
+}
+
+#fundado {
+	margin: 50px;
+	letter-spacing: .3em;
+	font-size: 1.2em;
+}
+
+#titulo {
+	margin-top: 40px;
+	font-size: 3em;
+}
+
+#nombre_completo {
+	font-size: 2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#nombre {
+	color: #b0ad92;
+}
+
+#apellido {
+	color: #888673;
+}
+
+#periodico {
+	font-size: 3em;
+	position: absolute;
+	top: -40px;
+	left: 45%;
+	background-color: inherit;
+	z-index: 25;
+}
+
+#cuerpo_izq {
+	float: left;
+	width: 66%;
+}
+
+#cuerpo_drcha {
+	float: left;
+	width: 33%;
+}
+
+#autor {
+	font-size: .8em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#titular {
+	padding: 10px;
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#cuerpo_izq_izq {
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+#cuerpo_drcha_drcha {
+	float: left;
+	width: 50%;
+}
+
+#contenedor_imagen {
+	text-align: center;
+}
+
+#imagen {
+	width: 80%;
+	height: 80%;
+}
+
+#marca_agua {
+	position: relative;
+}
+
+#marca_agua_texto {
+	font-size: 18em;
+	opacity: 0.3;
+	text-shadow: 8px 6px gray;
+
+	font-size: 18vw; 
+	position: absolute;
+	top: -.5em;
+	left: -.2em;
+}
+
+#parrafo1:first-letter {
+	font-size: 9em;
+	line-height: .7em;
+	float: left;
+}
+
+#parrafo_fin:first-letter {
+	font-size: 6em;
+	line-height: .7em;
+	float: left;
+}
+
+/*******************************
+	PIE
+********************************/ 
+
+#pie h3 {
+	font-family: Courier;
+	font-size: .7em;
+	margin-bottom: 0px;
+}
+#pie p {
+	font-family: Courier;
+	font-size: .7em;
+	padding: 0px;
+	margin-top: 0px;
+}
